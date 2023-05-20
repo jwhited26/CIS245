@@ -42,7 +42,7 @@ class Pickup(Vehicle):
 
 garage = []
 
-#Prompt user to add vehicles to garage or quit
+#Prompt user to add vehicles or quit
 while True:
     print("Enter 1 to add a car, 2 to add a truck,")
     print("3 to list your vehicles, or 4 to quit:")
