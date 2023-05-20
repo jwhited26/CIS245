@@ -1,8 +1,8 @@
 # Display a welcome message for your program
-print("Welcome to the fantastic cable cost calculator program!")
+print("Welcome to the super fantastic cable cost calculator program!")
 
 #Get the company name from the user
-company_name = input("Please enter your company name:")
+business = input("Please enter your company name:")
 
 #Get the number of feet of fiber optic to be installed from the user
 feet_of_cable = input("Please enter amount of cable in feet:")
@@ -19,5 +19,5 @@ else:
   total_cost_cable = feet_of_cable * .5
 
 #Display the calculated information and company name
-message = "The total cost is: " + str(total_cost_cable) + ". Thank you " + str(company_name) + "!"
+message = "The total cost is: " + str(total_cost_cable) + ". Thank you " + str(business_name) + "!"
 print(message)
