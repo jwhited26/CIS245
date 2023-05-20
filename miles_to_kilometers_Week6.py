@@ -15,7 +15,7 @@ def intro():
     print()
 
     try:
-  #Prompt user for number of miles driven
+  #Prompt user for the number of miles driven
       miles_needed = int(input('Enter the number of miles driven: '))
 
   #Convert miles to kilometers
